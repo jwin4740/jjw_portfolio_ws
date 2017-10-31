@@ -171,10 +171,10 @@ main {
     height: 52vh;
     padding: 15px;
 
-
 }
 
 .projectBox {
+    cursor: pointer;
     display: inline-block;
     height: 54%;
     width: 22%;
@@ -184,11 +184,12 @@ main {
 
 }
 
-.proPic{
+.proPic {
     height: 100%;
     width: 100%;
 }
 
-.picCaption{
+.picCaption {
     font-size: 18px;
+    font-weight: bolder;
 }
