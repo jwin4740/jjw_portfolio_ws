@@ -1,42 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Page Description">
-    <meta name="author" content="James">
-    <title>Jame J Winkle</title>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
-    <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="./css/style.css" rel="stylesheet">
-</head>
-<body>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <a class="navbar-brand" href="#">James J Winkle</a>
-    <ul class="nav navbar-nav">
-        <li class="active">
-            <a href="#">Home</a>
-        </li>
-        <li>
-            <a href="#">Link</a>
-        </li>
-    </ul>
-</nav>
-<main>
-<span class="glyphicon glyphicon-menu-down scrollArrow"></span>
-</main>
-<section id="skillSet">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>James J Winkle</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./css/scrolling-nav.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">James J Winkle</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a class="page-scroll" href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#services">Services</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#skills">Skillset</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Intro Section -->
+<section id="intro" class="intro-section">
+    <main>
+        <div class="headline">
+            <p id="headerMain">James J Winkle
+            </p>
+            <p id="headerSub">
+                142
+                Magnolia Farms Lane | Mooresville, NC 28117 | 630.715.7982
+            </p>
+
+        </div>
+        <div id="arrow">
+            <span style='cursor: pointer;' class="glyphicon glyphicon-menu-down"></span>
+        </div>
+    </main>
+
+</section>
+<section id="services" class="services-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Services Section</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section -->
+<section id="about" class="about-section">
+
+    <div class="bg-faded p-4 my-4">
+        <hr class="divider">
+        <h2 class="text-center text-lg text-uppercase my-0">About
+            <strong>me</strong>
+        </h2>
+        <hr class="divider">
+        <img class="profilePic" src="img/profile.JPG" alt="">
+        <p>My name is James Winkle. I graduated in 2010 from the University of Illinois with a B.S. degree in Biology.
+            Upon graduation, I started working in the biomedical research lab at the University of Chicago where I
+            coauthored an article (5-HT2C paper) that was published in Molecular Psychology in October, 2013.
+            I moved to North Carolina in 2012 and worked in the Genetics lab at Davidson College. After doing medical
+            research for a few years, it became clear to me that I wanted to pursue a more rewarding career where I
+            could apply my analytical skills in a variety of new ways.
+            After looking at several career options I took the Harvard CS50 (Computer Science) course through edX and
+            fell in love with it. It was exciting to gain an understanding of the power of the computer and the endless
+            possibilities for creative expression. I then decided to go back to school to get the skills needed to
+            pursue a career in web development, which led me to the UNC Charlotte coding boot camp program.
+            I am excited to finish the program and start a career where I can use my newfound skills to be part of a web
+            development team at a growing company.When not working, I enjoy tennis, guitar, and am currently training
+            for a triathlon.</p>
+    </div>
     <br>
+    <br>
+
+
+</section>
+
+<!-- Services Section -->
+<section id='skills' class="skills-section">
     <hr class="divider">
     <h2 class="text-center text-lg text-uppercase my-0">Technology
         <strong>skillset</strong>
@@ -64,12 +157,52 @@
 
 
     </div>
-
-</section>
-<section id="projectSect">
-
 </section>
 
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+
+    <section id="projectSect">
+
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Contact Section</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-faded text-center py-4">
+     <h3>Connect With Me</h3>
+    <div id="links">
+        <a target="_blank" href="https://github.com/jwin4740">
+            <img class="thumb" src="./assets/photos/gitwhite.png"></a>
+        <a target="_blank"
+           href="https://www.linkedin.com/in/james-winkle-4181794b?trk=nav_responsive_tab_profile">
+            <img class="thumb" src="./assets/photos/linkedinlogo.png" alt="linkedin">
+        </a>
+        <a target="_blank" href="https://jsfiddle.net/user/jwin4740/fiddles/">
+            <img class="thumb" src="./assets/photos/jsfiddle.png" alt="JSfiddle">
+        </a>
+        <a target="_blank" href="http://stackoverflow.com/users/7083353/james-winkle?tab=profile">
+            <img class="thumb" src="./assets/photos/stack.png" alt="stackoverflow">
+        </a>
+    </div>
+
+</footer>
+
+<!-- jQuery -->
+<script src="./js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="./js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="./js/jquery.easing.min.js"></script>
+<script src="./js/scrolling-nav.js"></script>
 
 </body>
+
 </html>
