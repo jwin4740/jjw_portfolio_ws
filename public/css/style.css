@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    background-image: url('../img/chicago.jpg');
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.scrollArrow{
+    color: white;
+    postition: absolute;
+    top: 93%;
+    left: 50%;
+    cursor: pointer;
+    font-size: 26px;
+}
+#skillSet{
+    height: 60vh;
+}
+#projectSect{
+    height: 30vh;
+    background-color: #9b9b9b;
+}
+#profileSect{
+    height: 45vh;
+}
+.thumb {
+    width: 50px;
+    height: 50px;
+}
+
+#skillIcons {
+    text-align: center;
+}
+
+.skill {
+    cursor: crosshair;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.python {
+    height: 67px;
+    width: 72px;
+
+}
+
+.htmllogo {
+    height: 80px;
+    width: 85px;
+
+}
+
+.csslogo {
+    height: 80px;
+    width: 62px;
+
+}
+
+.jslogo {
+    height: 85px;
+    width: 90px;
+
+}
+
+.node {
+    height: 110px;
+    width: 135px;
+
+}
+
+.d3 {
+    height: 60px;
+    width: 60px;
+}
+
+.mysql {
+    height: 80px;
+    width: 100px;
+}
+
+.asp {
+    margin-top: 20px;
+    height: 100px;
+    width: 120px;
+}
+
+.mongo {
+    height: 100px;
+    width: 100px;
+
+}
+
+.linode {
+    height: 80px;
+    width: 230px;
+}
+
+.csharp {
+    height: 80px;
+    width: 80px;
+}
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+    position: fixed; /* <-- Look here */
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 1030;
+    background-color: white;
+}
+
+.profilePic{
+    height: 150px;
+    /*width: 200px;*/
+}
