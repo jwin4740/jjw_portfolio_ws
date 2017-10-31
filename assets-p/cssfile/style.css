@@ -8,22 +8,22 @@ body {
 }
 
 #index {
-    background-image: url("../photos/gray.jpg");
+    background-image: url("../../public/img/photos/gray.jpg");
     background-size: cover;
 }
 
 #portfolio {
-    background-image: url("../photos/shore.jpg");
+    background-image: url("../../public/img/photos/shore.jpg");
     background-size: cover;
 }
 
 #about {
-    background-image: url("../photos/shore.jpg");
+    background-image: url("../../public/img/photos/shore.jpg");
     background-size: cover;
 }
 
 #resume {
-    background-image: url("../photos/shore.jpg");
+    background-image: url("../../public/img/photos/shore.jpg");
     background-size: cover;
 }
 

@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
 }
-.totusTuus{
+
+.totusTuus {
     padding-left: 10vw;
     padding-right: 10vw;
 }
+
 main {
     background-image: url('../img/chicago.jpg');
     background-size: cover;
@@ -162,4 +164,31 @@ main {
     border-top: 1px solid black;
     margin: 1em 0;
     padding: 0;
+}
+
+#projectContainer {
+    text-align: center;
+    height: 52vh;
+    padding: 15px;
+
+
+}
+
+.projectBox {
+    display: inline-block;
+    height: 54%;
+    width: 22%;
+    border: solid 5px blue;
+    border-radius: 5px;
+    margin: 45px;
+
+}
+
+.proPic{
+    height: 100%;
+    width: 100%;
+}
+
+.picCaption{
+    font-size: 18px;
 }

@@ -39,7 +39,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section {
-    height: 50%;
+
     padding-top: 50px;
     text-align: center;
     background: #eee;
@@ -47,13 +47,13 @@ of those sections to manage the look and feel of the site. */
 
 .projects-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     background: #fff;
 }
 
 .skills-section {
-    height: 55%;
+    clear: both;
     padding-top: 75px;
     text-align: center;
     background: #eee;
@@ -64,5 +64,10 @@ of those sections to manage the look and feel of the site. */
     padding-top: 10px;
     text-align: center;
     background: #fff;
+}
+
+#links{
+    float: right;
+    margin-bottom: 10px;
 }
 
