@@ -14,12 +14,12 @@ html {
     height: 100%;
 }
 
-@media(min-width:767px) {
+@media (min-width: 767px) {
     .navbar {
         padding: 10px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
 
     .top-nav-collapse {
@@ -39,29 +39,30 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section {
-    height: 100%;
-    padding-top: 150px;
+    height: 50%;
+    padding-top: 50px;
     text-align: center;
     background: #eee;
 }
 
-.services-section {
+.projects-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
+.skills-section {
+    height: 55%;
+    padding-top: 75px;
     text-align: center;
     background: #eee;
 }
 
-.skills-section {
-    height: 100%;
-    padding-top: 150px;
+.contact-section {
+    height: 2%;
+    padding-top: 10px;
     text-align: center;
-    background: #eee;
+    background: #fff;
 }
+

@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
 }
-
+.totusTuus{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
 main {
     background-image: url('../img/chicago.jpg');
     background-size: cover;
@@ -134,7 +137,7 @@ main {
     position: fixed; /* <-- Look here */
     top: 0;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.5;
     z-index: 1030;
     background-color: white;
 }
@@ -144,10 +147,19 @@ main {
     /*width: 200px;*/
 }
 
-#arrow{
+#arrow {
     position: relative;
     top: 75%;
     text-align: center;
     color: white;
     font-size: 26px;
+}
+
+.hrRule {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
 }
